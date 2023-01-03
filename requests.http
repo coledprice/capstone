@@ -1,3 +1,5 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NzI4NjQzNzl9.2WFvSJ2hFB0H-mQycLsgZzye1zy-nSyl_YbBJGNxoYM
+
 ### Users create (signup)
 POST http://localhost:3000/users.json
 Content-Type: application/json
@@ -17,3 +19,65 @@ Content-Type: application/json
   "email": "test@test.com",
   "password": "password"
 }
+
+### FISH SHOW
+
+GET http://localhost:3000/fishs/1.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+### FISH INDEX
+
+GET http://localhost:3000/fishs.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+### Fish Update
+
+PATCH http://localhost:3000/fishs/1.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+{
+  "image": "https://ncfishes.com/wp-content/uploads/2020/08/Micropterus-salmoides-white.png"
+}
+
+
+### Fish_users CREATE 
+POST http://localhost:3000/fish_users.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+{
+  "fish_id": 1,
+  "date": "01/01/2023",
+  "quantity": 10
+}
+
+### Fish_users INDEX
+
+GET http://localhost:3000/fish_users.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+### Fish_users SHOW
+
+GET http://localhost:3000/fish_users/1.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+### Fish_users Update
+
+PATCH http://localhost:3000/fish_users/1.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
+
+{
+  "date": "01/03/2023"
+}
+
+### Fish_users Destroy
+
+DELETE  http://localhost:3000/fish_users/2.json
+Content-Type: application/json
+Authorization: Bearer {{jwt}}
