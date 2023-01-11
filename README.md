@@ -1,7 +1,6 @@
-# README
+# Freshwater-Fishes-of-North-Carolina
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-This app allows a user to login and indentify a freswater fish they caught in North Carolina.  It allows the user to log a fish they caught with attributes: Date, Quantity, Image, and Comment.
 
 Things you may want to cover:
 
