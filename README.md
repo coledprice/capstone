@@ -12,7 +12,7 @@
 ```bash
 git clone https://github.com/coledprice/capstone.git
 bundle
-rails db:create
+rails db:create db:migrate db:seed
 rails server
 ```
 
