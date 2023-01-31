@@ -10,5 +10,8 @@ git clone https://github.com/coledprice/capstone.git
 </br > rails db:create
 </br > rails server
 
+### Open your browser and run:
+http://localhost:3000/fishs
+
 
 
