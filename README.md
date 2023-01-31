@@ -13,8 +13,13 @@
 git clone https://github.com/coledprice/capstone.git
 bundle
 rails db:create db:migrate db:seed
+```
+
+## Usage:
+```bash
 rails server
 ```
+You can test web requests in the requests.http file.
 
 ### Open your browser and run:
 http://localhost:3000/fishs
