@@ -19,7 +19,7 @@ rails db:create db:migrate db:seed
 ```bash
 rails server
 ```
-You can test web requests in the <mark>requests.http</mark> file.
+You can test web requests in the <p><mark>requests.http</mark></p> file.
 
 ### Open your browser and run:
 http://localhost:3000/fishs
