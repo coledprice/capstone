@@ -8,7 +8,7 @@
 <li>Rails 7.0.4</li>
 </ul>
 
-### In terminal run:
+## Installation:
 git clone https://github.com/coledprice/capstone.git
 </br > bundle
 </br > rails db:create
