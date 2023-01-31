@@ -2,7 +2,11 @@
 
 -This app allows a user to login and indentify a freshwater fish they caught in North Carolina.  It allows the user to log a fish they caught with attributes: Date, Quantity, Image, and Comment.
 
-## Ruby version: version 3.1.2
+## Libraries
+<ul>
+<li>Ruby 3.1.2</li>
+<li>Rails 7.0.4</li>
+</ul>
 
 ### In terminal run:
 git clone https://github.com/coledprice/capstone.git
