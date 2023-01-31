@@ -4,22 +4,10 @@
 
 ## Ruby version: version 3.1.2
 
+### In terminal run:
+git clone https://github.com/coledprice/capstone.git
+bundle
+rails db:create
 
 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# capstone
