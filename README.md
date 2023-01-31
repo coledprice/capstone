@@ -15,5 +15,5 @@ http://localhost:3000/fishs
 
 ![image](https://user-images.githubusercontent.com/116182313/215846024-e61b7859-98bf-4a41-bd6b-3986b5499ed6.png)
 
-
+Leave the server running if you want to check out the frontend. Go to capstone frontend repo and follow the Readme
 
