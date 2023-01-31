@@ -9,12 +9,11 @@
 </ul>
 
 ## Installation:
+```bash
 git clone https://github.com/coledprice/capstone.git
 </br > bundle
 </br > rails db:create
 </br > rails server
-```bash
-pip install foobar
 ```
 
 ### Open your browser and run:
