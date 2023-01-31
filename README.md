@@ -6,8 +6,8 @@
 
 ### In terminal run:
 git clone https://github.com/coledprice/capstone.git
-bundle
-rails db:create
+</br > bundle
+</br > rails db:create
 
 
 
