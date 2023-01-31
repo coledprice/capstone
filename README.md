@@ -11,9 +11,9 @@
 ## Installation:
 ```bash
 git clone https://github.com/coledprice/capstone.git
-</br > bundle
-</br > rails db:create
-</br > rails server
+bundle
+rails db:create
+rails server
 ```
 
 ### Open your browser and run:
